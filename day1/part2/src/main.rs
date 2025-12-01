@@ -28,32 +28,26 @@ fn main() {
 
 fn left(mut dial: u16, amount: u16) -> (u16, u16) {
     let mut clicks = 0;
-    println!("dial at {dial}, {amount} down");
     if dial == 0 {
         dial += 100
     }
     while dial < amount {
         dial += 100;
         clicks += 1;
-        println!("    click");
     }
     dial -= amount;
     if dial == 0 {
         clicks += 1
     }
-    println!(" -> dial to {dial}");
     (dial, clicks)
 }
 
 fn right(mut dial: u16, amount: u16) -> (u16, u16) {
     let mut clicks = 0;
-    println!("dial at {dial}, {amount} up");
     dial += amount;
     while dial >= 100 {
         dial -= 100;
         clicks += 1;
-        println!("    click");
     }
-    println!(" -> dial to {dial}");
     (dial, clicks)
 }
