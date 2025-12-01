@@ -27,16 +27,14 @@ fn main() {
     println!("amount of zeroes: {zeroes}");
 }
 
-fn left(dial: u16, amount: u16) -> u16 {
-    let mut output = dial;
-    while output < amount {
-        output += 100;
+fn left(mut dial: u16, amount: u16) -> u16 {
+    while dial < amount {
+        dial += 100;
     }
-    output - amount
+    dial - amount
 }
 
-fn right(dial: u16, amount: u16) -> u16 {
-    let mut output = dial;
-    output += amount;
-    output % 100
+fn right(mut dial: u16, amount: u16) -> u16 {
+    dial += amount;
+    dial % 100
 }
