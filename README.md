@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-I'm going out of my way to do each day in a different language. 
+I'm going out of my way to do each day in a different language. Why? Because I felt like it.
 
 ### Progress:
 - Day 1: Rust `rustc 1.88.0 (6b00bc388 2025-06-23)`
@@ -9,6 +9,4 @@ I'm going out of my way to do each day in a different language.
 - Day 4: Python `Python 3.13.7`
 - Day 5: Go `go version go1.25.4 X:nodwarf5 linux/amd64`
 
-### Why?
-
-Why not?
+So far, so good!
