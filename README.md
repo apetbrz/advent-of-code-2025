@@ -8,7 +8,7 @@ I'm going out of my way to do each day in a different language. Why? Because I f
 - [x] Day 3: C `gcc (GCC) 15.2.1 20251112`
 - [x] Day 4: Python `Python 3.13.7`
 - [x] Day 5: Go `go version go1.25.4 X:nodwarf5 linux/amd64`
-- [ ] Day 6: ?
+- [ ] Day 6: Bash `GNU bash, version 5.3.3(1)-release (x86_64-pc-linux-gnu)`
 - [ ] Day 7: ?
 - [ ] Day 8: ?
 - [ ] Day 9: ?
